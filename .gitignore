@@ -5,6 +5,14 @@
 /.pnp
 .pnp.js
 
+#Assets
+/src/Assets/desktop
+/src/Assets/mobile
+/src/Assets/icons/*
+
+# excet index.js that indise the icons folder
+!/src/Assets/icons/Icons.tsx
+
 # testing
 /coverage
 
@@ -21,3 +29,5 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+*storybook.log
